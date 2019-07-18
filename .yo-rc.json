@@ -1,0 +1,37 @@
+{
+  "generator-jhipster-vuejs": {
+    "jhipsterVersion": "6.1.2",
+    "applicationType": "monolith",
+    "baseName": "pmill",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "vue",
+    "clientTheme": "cerulean",
+    "clientThemeVariant": "primary",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "databaseType": "h2disk",
+    "devDatabaseType": "h2disk",
+    "prodDatabaseType": "h2disk"
+  },
+  "generator-jhipster": {
+    "jhipsterVersion": "6.1.2",
+    "applicationType": "monolith",
+    "baseName": "pmill",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-vuejs",
+        "version": "1.1.0"
+      }
+    ],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprint": "generator-jhipster-vuejs",
+    "blueprintVersion": "1.1.0",
+    "skipServer": true
+  }
+}
