@@ -10,9 +10,9 @@
     "clientThemeVariant": "primary",
     "authenticationType": "jwt",
     "cacheProvider": "no",
-    "databaseType": "h2disk",
+    "databaseType": "sql",
     "devDatabaseType": "h2disk",
-    "prodDatabaseType": "h2disk"
+    "prodDatabaseType": "mysql"
   },
   "generator-jhipster": {
     "jhipsterVersion": "6.1.2",
